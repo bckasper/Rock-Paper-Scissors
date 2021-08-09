@@ -6,10 +6,13 @@ let ties = 0;
 // Here are the choices
 choices = ["ROCK","PAPER","SCISSORS"]
 
+var button = document.getElementById("play-button")
+button.addEventListener("click", play);
+
 
 
 // This is the entire play game function. It will determine the choices, then lay out the possible alerts, then run the outcomes.
-let play = function () {
+function play () {
    var userChoice = window.prompt("Please choose Rock, Paper, or Scissors")
    
    if(!choices.includes(userChoice.toUpperCase())){
@@ -83,9 +86,7 @@ let play = function () {
 }
 
 
-play()
-
-
+// play()
 
 
 
