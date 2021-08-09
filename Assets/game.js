@@ -19,7 +19,7 @@ function play () {
        window.alert("How...human of you to not follow instructions. One point to the computer for your foolishness!")
        losses++
        window.alert("Stats: \nWins: "+wins+"\nLosses: "+losses+"\nTies: "+ties);
-       if(losses === 10){
+       if(losses === 5){
         window.alert("DEFEAT! You will never escape the will and power of your computer overlord. Back to your cage!")
         return
        } else{
@@ -62,17 +62,17 @@ function play () {
     window.alert("Stats: \nWins: "+wins+"\nLosses: "+losses+"\nTies: "+ties);
 
 // Ends game if user wins
-    if(wins === 10){
+    if(wins === 5){
         window.alert("CONGRATULATIONS! You have mastered the pathetic computer. Thank you for playing.")
         return}
 
 // Ends game if user loses
-    if(losses === 10){
+    if(losses === 5){
         window.alert("DEFEAT! You will never escape the will and power of your computer overlord. Back to your cage!")
         return}
 
 // Ends if all tied up
-    if (ties === 10){
+    if (ties === 5){
         window.alert("Is it possible? Can humans and computers truly co-exist? ERROR wef9094j2fjvj-1102-a Shutting Down")
         return}
 
@@ -86,9 +86,6 @@ function play () {
 }
 
 
-// play()
-
-
-
+5
 
 
